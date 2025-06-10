@@ -20,11 +20,11 @@
   $score10 = 60;
 
   //10人の合計点
-  $total_average = $score1 + $score2 + $score3 + $score4 +  $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+  $total_score = $score1 + $score2 + $score3 + $score4 +  $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
 
   //10人の平均点
-  $score_average = $total_average / 10;
-  echo $score_avarage;
+  $score_average = $total_score / 10;
+  echo $score_average;
   ?>
 </body>
 </html>
