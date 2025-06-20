@@ -13,7 +13,7 @@
         echo"昇順にソートします。<br>";
         sort($array);
       } else{
-        echo"昇順にソートします。<br>";
+        echo"降順にソートします。<br>";
         rsort($array);
       }
 
