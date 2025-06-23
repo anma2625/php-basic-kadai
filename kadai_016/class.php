@@ -55,10 +55,17 @@ class Animal {
 }
 
 //インスタンス化
-$animal = new Animal('dog',60, 5000);
-
-print_r($animal);
+$Food = new Food('potato', 250);
+print_r($Food);
 echo '<br>';
+
+$Animal = new Animal('dog',60, 5000);
+print_r($Animal);
+echo '<br>';
+
+$Food->show_price();
+echo '<br>';
+$Animal->show_height();
 
 ?>
 </body>
