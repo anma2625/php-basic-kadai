@@ -49,10 +49,9 @@ public function show_height(){
 }
 }
 
-
 //インスタンス化
-$food = new Food('potato', 250);
-print_r($food);
+$Food = new Food('potato', 250);
+print_r($Food);
 echo '<br>';
 
 $Animal =new Animal('dog', 60 ,5000);
@@ -62,7 +61,6 @@ echo '<br>';
 $Food->show_price();
 echo '<br>';
 $Animal->show_height();
-
 
 ?>
 </p>
